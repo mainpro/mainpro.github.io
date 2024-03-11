@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="zh"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>最佳实践:怎样评估软件开发时间 | Mainpro Blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">最佳实践:怎样评估软件开发时间</h1><a id="logo" href="/.">Mainpro Blog</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">最佳实践:怎样评估软件开发时间</h1><div class="post-meta">2021-08-09</div><div class="post-content"><p>转至 DDI Development InfoQ</p>
+<p>作者 ｜ DDI Development 团队</p>
+<p>译者 ｜ 王强</p>
+<p>策划 ｜ 王一鹏</p>
+<p>据统计，有差不多 70% 的项目都没能准时完成，你的项目也可能是其中之一。总是 delay 是不是很烦人？你也希望在满足市场需求的同时，还能按时交付项目，对不对？正因如此，软件开发时间的估算，应该是构建研发流程时优先考虑的事项。我们编制了一份清单，列出了为获得贴近实际情况的软件开发时间，你需要做的一些基本动作和步骤。下面我们就来具体谈谈，如何估算开发时间。</p>
+<p>1 为什么你需要预估软件开发时间</p>
+<p>这当然是很必要的，有了这个数据，你才能知道完成项目需要多久（以小时为单位来估算）。这可以比作装修房子……哦不对，那太复杂了。算了，我们可以把它比作一家花店，这样的比喻更合理一些。</p>
+<ul>
+<li>假设你想开一家花店，要提前做预算和时间估算：</li>
+<li>你计算了从准备到开张需要多长时间；</li>
+<li>在这个过程中，你发现原本想要的花进不到货。你需要用另一个产品替换原计划的品种，这需要时间；</li>
+<li>然后你又发现，鲜花储存需要更多条件，你的设备需要更换；</li>
+<li>花店还没有开张，但你已经意识到店里应该卖咖啡和书籍。</li>
+</ul>
+<p>你意识到发生了什么吗？嗯，是的，业务需求以及最初估计的时间和预算都可能会发生变化。这个例子同样可以适用于你的软件解决方案。</p>
+<p>2 你从开发时间估算中获得的好处</p>
+<p>作为客户，你将获得的收益：</p>
+<ul>
+<li>你将清楚地知道何时可以拿到交付的产品。如果不久会有产品展示或重大公司活动，这一点尤其重要；</li>
+<li>你知道自己能赶上截止日期，可以放心了；</li>
+<li>你可以完全控制流程，并及时了解时间估算或预算的变化及其影响。</li>
+</ul>
+<p>软件开发团队获得的优势：</p>
+<ul>
+<li>我们可以提前智能地分配任务 &#x2F; 资源，并管理截止日期和工作量；</li>
+<li>我们可以了解哪些专家应该在哪些阶段参与进来。</li>
+</ul>
+<p>3 为什么很难获得真正可靠的时间估算结果？</p>
+<p>尽管时间估算有很多明显的好处，但它和预测还是没有太大区别，因为它主要是凭直觉完成的。软件开发人员基于他们自己的经验来判断哪些东西很难实现，哪些比较容易。程序员越优秀，估算的时间就越准确。</p>
+<p>但是这种估算开发时间的方法也是有一些小差异的。当开发人员面对的是不熟悉的问题时，他们以往的经验、曾经行之有效的方法都可能不再灵光。任何开发人员都无法避免架构、框架、库访问和技术社区支持方面的潜在问题。</p>
+<p>那么人为因素呢？程序员——没错，就算是高级程序员——也可能会生病或请一天假。当然，如果程序员不能在明天早上完成任务，那并不是你的错。但是客户这边可能会带来计划外的额外任务，这些任务会打乱原来的时间估算结果。</p>
+<p>综上所述，开发时间估算结果是可能会出错的，原因如下：</p>
+<ul>
+<li>经验不再适用；</li>
+<li>不可预测的技术侧问题；</li>
+<li>人为因素。</li>
+</ul>
+<p>那么该怎么办呢？——你可能会问这个问题。答案是用深思熟虑的方法和行之有效的手段来把事情做好。</p>
+<p>4 如何估算开发时间：要考虑的各个阶段</p>
+<p>要计算出总体的软件开发时间，我们应将预期的开发过程划分为多个阶段。然后估计每个阶段需要多长时间并汇总数据。</p>
+<p><img src="/2021/08/09/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E6%80%8E%E6%A0%B7%E8%AF%84%E4%BC%B0%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%97%B6%E9%97%B4/1.jpg" alt="图片"></p>
+<p>发现阶段</p>
+<p>在这个阶段，参与项目的开发人员需要获得尽可能多的项目信息。这一阶段还需要准备原型和框架。如果实践中有的工作需要使用复杂的技术来完成，我们必须为此分配足够的时间。</p>
+<p>在估算开发时间时，发现阶段应该安排深入的需求讨论环节。</p>
+<p>具体做法：</p>
+<ul>
+<li>开发人员从客户那里收到需求，并仔细检查它们是否存在逻辑漏洞；</li>
+<li>如果出现任何问题，大家要进一步讨论；</li>
+<li>开发人员起草一份详细说明需求的通用文件，并与客户达成一致。</li>
+</ul>
+<p>准备一份有着明确定义的规范的文档，每个人都拿它当作指南，因为它可以防止“我们不是说好了应用程序要有这一特性吗？”之类的情况。让我们面对现实吧，在计划阶段解决问题，比在产品完成时解决问题要便宜得多。</p>
+<p>软件架构设计阶段</p>
+<p>产品的可扩展性受系统架构规划和设计的一致性影响。在估算软件开发时间时应考虑到这一点。这一阶段需要选择技术栈、类图、数据库、库、API 和细分的阶段。</p>
+<p>开发阶段</p>
+<p>为了提高效率，需要将这一阶段分解为几个单独的逻辑阶段，方便你监控团队的进度和绩效。产品开发过程可能需要 2 到 12 个月。在估算软件开发时间时应考虑到这一点。</p>
+<p>测试阶段</p>
+<p>如果没有经过彻底的测试，任何产品都不能被认为是完整的。此外，软件解决方案必须从一开始就进行测试。为什么？因为解决潜在错误的成本会低不少，毕竟它们会更快被发现和修复。测试阶段也需要包含在时间估算中。</p>
+<p>额外的时间：缓冲时间和时间吞噬者</p>
+<p>还需要考虑可能影响时间表的计划外工作，或很难预估的任务耗时。它们约占总开发时间的 5% 到 25%：</p>
+<ul>
+<li>技术的不可预测性；</li>
+<li>集成或扩展问题；</li>
+<li>团队内部的利益冲突；</li>
+<li>会议、电话、批准；</li>
+<li>生产力损失，等等。</li>
+</ul>
+<p>5 如何估算软件项目的工时</p>
+<p><img src="/2021/08/09/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E6%80%8E%E6%A0%B7%E8%AF%84%E4%BC%B0%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%97%B6%E9%97%B4/2.jpg" alt="图片"></p>
+<p>工时估算通常是将一个个任务汇总起来完成的，这样可以简化工作并让结果更加透明。估算开发时间的一种方法是估算每位专家可以在项目上花费多长时间。</p>
+<p>这种方法关注的是一位平均水平的 IT 专业人员在一小时内能够完成的工作量。</p>
+<p>平均水平的 IT 专家意味着他 &#x2F; 她是中级技术专家（开发人员、设计师、QA 工程师）。他们执行的是与他们专业相关的任务。这意味着完成测试任务所需的时间应该根据 QA 工程师，而不是前端开发人员的表现来估算。中级工程师的工作速度可能不如高级程序员，但他或她的工作效率可能比初级技术人员更高。</p>
+<p>一个小时的工作意味着连续工作 60 分钟。这里的重点是要了解这位专家的工作是否依赖其他专家的产出，他或她是否需要等待其他人才能完成自己的工作量。</p>
+<p>让我们看看可以应用哪些方法和实践来估算软件开发时间。最常见的方法是敏捷方法。</p>
+<p>先来看一看这个主题涉及的关键术语：</p>
+<ul>
+<li>用户故事：用 1-2 句话描述系统应该做什么；</li>
+<li>故事描述：衡量完成用户故事所需的工作量（不是以小时为单位）；</li>
+<li>待办事项：为实现目标而需要完成的任务列表。</li>
+</ul>
+<p>现在我们继续来估算软件开发时间。</p>
+<p>6 软件开发时间估算方法</p>
+<p>通过开发时间估算，一切似乎都足够清楚了。但是……你不觉得少了点什么吗？这个估算具体是怎么做的？</p>
+<p>下面介绍基本方法。</p>
+<p>自下而上的方法或坚持参照里程碑</p>
+<p>当提前了解总开发时间后，技术人员可能会高估他们的生产力，结果会让估计的开发时间偏低。我们可以将所有任务划分为各个阶段，并分别估算每个阶段来避免超时问题。也就是说，遵循“自下而上”的原则。</p>
+<p>通常需要有两位专家参与时间估算：</p>
+<ul>
+<li>开发人员。他 &#x2F; 她准备了一份描述所有任务的规范；将它们分成各个组或子任务并估计开发时间；</li>
+<li>一位公司的独立专家（例如高级项目经理）。他 &#x2F; 她会检查开发人员提供的时间估算结果，评估它们的现实性。如有必要，再进行调整。</li>
+</ul>
+<p>规划扑克</p>
+<p>这种估算软件开发时间的方法所涉及的一些原则，很像敏捷方法论和打扑克。它是怎样做的呢？</p>
+<ul>
+<li>客户表达了团队需要面对的任务；</li>
+<li>该信息在团队内进行讨论，后续问题与客户一起解决；</li>
+<li>创建一个包含细分任务的待办事项列表（积压，backlog）；</li>
+<li>团队成员聚在一起，从积压中找出执行这些任务需要多长时间。</li>
+</ul>
+<p>使用规划扑克估算软件开发时间的具体做法如下所示。</p>
+<p>每位开发人员都会给出他或她对手头任务的时间估计。为此，他们使用带有数字的卡片。每位团队成员都有一组卡片，其值为 1、2、3、5、8、13 以及 21、34、55（斐波那契数列）或用 20、40、100 换掉最后三个。此外还有三张没有数字的牌，它们分别画一个无穷大符号、一个问号和一个咖啡杯。</p>
+<p>每个用户故事都用一张卡片评分，其值等于估计的工作量（故事点数）。带有数字 1 的卡片表示用户故事很容易完成。比 1 越大，用户故事似乎就越困难。无限卡片代表最高级别的难度。</p>
+<p>如果每位开发人员选择的数字都相同，则意味着对所需工作量的估计是正确的。如有分歧，最终分数经过团队讨论确定下来。</p>
+<p>这一步并不是单纯地以小时为单位估算软件开发时间。到目前为止我们只定义了故事点。要了解如何以小时为单位表示这些故事点，你需要知道故事点对应的小时值。</p>
+<p>要注意扑克计划的关键在于讨论。试想一下——很多真正的专家会参与你的项目。他们每个人都对自己的选择给出了理由，并对项目的细节进行了彻底的讨论。这样一来，你很可能会得到准确的时间估算结果。</p>
+<p><img src="/2021/08/09/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E6%80%8E%E6%A0%B7%E8%AF%84%E4%BC%B0%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%97%B6%E9%97%B4/3.jpg" alt="图片"></p>
+<p>基于经验的方法</p>
+<p>这种方法需要将新项目与以前的类似项目进行比较。在这种情况下，你需要从实现旧项目所花费的时间开始估算。还需要找出两者的难度级别差异。将旧项目使用的小时数乘以项目的难度差异系数，你就可以估计即将开始的新项目所需的开发时间。</p>
+<p>7 项目估算数字</p>
+<p>下面我们来看以下示例，把上面的内容转成数字表示。</p>
+<blockquote>
+<p>总时间估算结果（OE）+ OE ✖️ 缓冲时间 + OE ✖️ 时间吞噬者 &#x3D; 软件开发时间</p>
+</blockquote>
+<p>我们输入一些数字（数字是近似值）：</p>
+<blockquote>
+<p>5000（OE）+ 5000 ✖️ 20%+5000 ✖️ 20% &#x3D; 7000 小时</p>
+</blockquote>
+<p>我们来更进一步。</p>
+<p>想象一下，我们需要在 Instagram 上实现“多账户”选项。为此，我们需要考虑用户可以采取的所有可能的操作：</p>
+<ul>
+<li>他 &#x2F; 她想添加一个帐户；</li>
+<li>他 &#x2F; 她可以选择“登录现有帐户”选项，这需要他 &#x2F; 她输入用户名和密码或通过 Facebook 登录；</li>
+<li>用户可能会忘记他 &#x2F; 她的访问权限或发现他 &#x2F; 她没有在 Facebook 上获得授权；</li>
+<li>用户可以选择“创建新帐户”选项，之后系统将要求他或她完成注册步骤。</li>
+</ul>
+<p>鉴于用户行为的差异，你可以定义开发人员需要完成的任务列表，以便用户可以添加新的 Instagram 帐户。将上述信息转化为任务、技术人员和时间估算：</p>
+<ul>
+<li>设计一个包含所有必要字段和易于理解的用户场景的页面；</li>
+<li>查明系统是否允许用户访问请求的页面，确保用户通过身份验证；</li>
+<li>根据鉴权结果进行重定向：跳转到请求的 Instagram 页面；跳转到 Facebook 页面通过 Facebook 完成鉴权；跳转到鉴权错误页面，等等。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>任务描述</strong></th>
+<th><strong>开发人员</strong></th>
+<th><strong>QA 工程师</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>为“多账户”选项设计页面</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr>
+<td>通过数据库进行用户认证</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>针对身份验证失败和成功的重定向</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Facebook 登录</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>总工时</td>
+<td>9</td>
+<td>4</td>
+</tr>
+</tbody></table>
+<p>因此，需要花费 13 个小时的技术人员工时才能让用户在多个 Instagram 帐户之间切换。还要记得算上协调和管理流程的项目管理工时（例如 3 小时）。</p>
+<p>8 小结</p>
+<p>乍一看，软件开发时间似乎是很容易估算的。然而，它需要时间和技术人才的充分参与才能做到位。为了确保你和你的 IT 服务提供商都对结果感到满意，你需要从一开始就正确估算开发时间。</p>
+<p>让整个开发团队都参与进来是很有帮助的。他们的经验会让时间估算结果最贴近实际。他们还会根据自己的能力估算项目工时。如果到头来时间估算结果不符实际，并且团队比计划落后了，他们不太可能愿意加班来赶工。所以为你提供尽可能准确的数据符合这些开发人员的自身利益。</p>
+<p>说到这里，我们希望你现在知道了，为什么你们需要一个明确的时间估算结果。有了它，你就能够更好地控制预算和流程，避免令人不快的意外情况。</p>
+<p><strong>原文链接：</strong></p>
+<p><a target="_blank" rel="noopener" href="https://ddi-dev.com/blog/it-news/how-to-estimate-software-development-time/">https://ddi-dev.com/blog/it-news/how-to-estimate-software-development-time/</a></p>
+</div><div class="tags"></div><div class="post-nav"><a class="pre" href="/2021/12/02/Rust%E7%BC%96%E5%86%99WebAssembly%E5%B9%B6%E4%BD%BF%E7%94%A8%E5%9C%A8React%E9%A1%B9%E7%9B%AE%E4%B8%AD/">Rust编写WebAssembly并使用在React项目中(实战)</a><a class="next" href="/2021/05/17/7000%E5%AD%97%E7%9A%84%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E6%80%BB%E7%BB%93/">7000 字前端性能优化总结 | 干货建议收藏</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://mainpro.github.io"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> Categories</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> Tags</i></div><div class="tagcloud"><a href="/tags/rust/" style="font-size: 15px;">rust</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> Recent</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2024/03/11/rust%E6%AD%A3%E5%9C%A8%E5%85%A8%E9%9D%A2%E5%85%A5%E4%BE%B5%E5%89%8D%E7%AB%AF/">rust正在全面入侵前端</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/12/02/Rust%E7%BC%96%E5%86%99WebAssembly%E5%B9%B6%E4%BD%BF%E7%94%A8%E5%9C%A8React%E9%A1%B9%E7%9B%AE%E4%B8%AD/">Rust编写WebAssembly并使用在React项目中(实战)</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/08/09/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E6%80%8E%E6%A0%B7%E8%AF%84%E4%BC%B0%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%97%B6%E9%97%B4/">最佳实践:怎样评估软件开发时间</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/05/17/7000%E5%AD%97%E7%9A%84%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E6%80%BB%E7%BB%93/">7000 字前端性能优化总结 | 干货建议收藏</a></li><li class="post-list-item"><a class="post-list-link" href="/2021/05/17/%E5%8E%9F%E7%AB%99%E7%82%B9%E6%8D%9F%E5%9D%8F-%E4%BB%8E%E6%96%B0%E6%90%AD%E5%BB%BA/">原站点损坏,从新搭建</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> Links</i></div><ul></ul><a href="https://github.com/mainpro/" title="github" target="_blank">github</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">Mainpro Blog.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="Copy Successed!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
